@@ -27,6 +27,7 @@ const TwitchWebhook = require('twitch-webhook')
 
 const twitchWebhook = new TwitchWebhook({
   client_id: 'Your Twitch Client ID',
+  authorizationKey: "Your Twitch Authorization key",
   callback: 'Your Callback URL',
   secret: 'It\'s a secret', // default: false
   lease_seconds: 259200,    // default: 864000 (maximum value)
